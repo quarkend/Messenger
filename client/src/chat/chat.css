@@ -1,0 +1,25 @@
+.chat-app {
+	 width: 100%;
+	 height: 100%;
+	 display: flex;
+}
+ .chat-app .channel-list {
+	 width: 20%;
+	 border: 1px solid #e0e0e0;
+	 margin: 10px;
+	 height: calc(100% - 22px);
+}
+ .chat-app .channel-item {
+	 border-bottom: 1px solid #e0e0e0;
+	 padding: 10px;
+}
+ .chat-app .channel-item div {
+	 font-weight: bold;
+}
+ .chat-app .channel-item span {
+	 font-size: 10px;
+}
+ .chat-app .channel-item:hover {
+	 background-color: #e0e0e0;
+}
+ 
